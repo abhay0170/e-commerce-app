@@ -11,5 +11,6 @@ void main() {
   runApp(const App());
 }
 
-// skipped api consents
+
 // skipped image logo mentioned in the image
+// ended at formatters
