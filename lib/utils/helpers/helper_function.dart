@@ -27,7 +27,7 @@ class THelperFunction {
       return Colors.white;
     } else if (value == 'Yellow') {
       return Colors.yellow;
-    } else if (value == 'Orenge') {
+    } else if (value == 'Orange') {
       return Colors.orange;
     } else if (value == 'Brown') {
       return Colors.brown;
@@ -84,11 +84,11 @@ class THelperFunction {
     return MediaQuery.of(Get.context!).size;
   }
 
-  static double screeenHeight() {
+  static double screenHeight() {
     return MediaQuery.of(Get.context!).size.height;
   }
 
-  static double screeenWidth() {
+  static double screenWidth() {
     return MediaQuery.of(Get.context!).size.width;
   }
 
@@ -108,5 +108,6 @@ class THelperFunction {
           i, i + rawSize > widgets.length ? widgets.length : i + rawSize);
           wrappedList.add(Row(children: rowChildren,));
     }
+    return wrappedList;
   }
 }

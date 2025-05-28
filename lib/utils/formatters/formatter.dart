@@ -25,16 +25,16 @@ class TFormatter {
 
     var digitsOnly = phoneNumber.replaceAll(RegExp(r'\D'), '');
 
-    String contryCode = '+${digitsOnly.substring(0, 2)}';
+    String countryCode = '+${digitsOnly.substring(0, 2)}';
     digitsOnly = digitsOnly.substring(2);
 
     final formattedNumber = StringBuffer();
-    formattedNumber.write('($contryCode)');
+    formattedNumber.write('($countryCode)');
 
     int i = 0;
     while (i < digitsOnly.length) {
       int groupLength = 2;
-      if (i == 0 && contryCode == '+1') {
+      if (i == 0 && countryCode == '+1') {
         groupLength = 3;
       }
       int end =i+groupLength;
