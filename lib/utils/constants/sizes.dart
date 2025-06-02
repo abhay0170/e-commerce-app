@@ -49,7 +49,7 @@ class TSize {
 
   // Input Field
   static const double inputField = 12.0;
-  static const double paceBtwInputfield = 16.0;
+  static const double spaceBtwInputfield = 16.0;
 
   // Card size
   static const double cardRadiusLg = 16.0;

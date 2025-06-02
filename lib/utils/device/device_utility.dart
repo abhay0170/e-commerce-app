@@ -16,12 +16,12 @@ class TDeviceUtility {
         SystemUiOverlayStyle(statusBarColor: color));
   }
 
-  static bool isLandscapeOrintation(BuildContext context) {
+  static bool isLandscapeOrientation(BuildContext context) {
     final viewInsets = View.of(context).viewInsets;
     return viewInsets.bottom == 0;
   }
 
-  static bool isPortraitOrintation(BuildContext context) {
+  static bool isPortraitOrientation(BuildContext context) {
     final viewInsets = View.of(context).viewInsets;
     return viewInsets.bottom != 0;
   }
@@ -47,11 +47,11 @@ class TDeviceUtility {
     return MediaQuery.of(Get.context!).padding.top;
   }
 
-  static double getBottomNaviationBarHeight() {
+  static double getBottomNavigationBarHeight() {
     return kBottomNavigationBarHeight;
   }
 
-  static double getAppBarHeihght() {
+  static double getAppBarHeight() {
     return kToolbarHeight;
   }
 
@@ -78,7 +78,7 @@ class TDeviceUtility {
     );
   }
 
-  static Future<void> setPreferedOrientation(
+  static Future<void> setPreferredOrientation(
       List<DeviceOrientation> orientations) async {
     await SystemChrome.setPreferredOrientations(orientations);
   }
