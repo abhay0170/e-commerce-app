@@ -19,7 +19,7 @@ class TTexts {
   //? Authentication Form Text
   static const String firstName = "First name";
   static const String lastName = "Last Name";
-  static const String email ="E-mail";
+  static const String email = "E-mail";
   static const String password = "Password";
   static const String confirmPassword = "Confirm Password";
   static const String newPassword = "New Password";
@@ -37,7 +37,7 @@ class TTexts {
   static const String verificationCode = "verificationCode";
   static const String resendEmail = "Resend Email";
   static const String resendEmailIn = "Resend email in";
-
+  static const String done = "Done";
 
   //? Authentication headings text
   static const String loginTitle = "Welcome back,";
@@ -48,7 +48,7 @@ class TTexts {
   static const String forgetPasswordSubtitle =
       "Don't worry sometimes people can forget too, enter your email and we will send you a password reset Link.";
   static const String changeYourPasswordTitle = "Password Reset Email Sent";
-  static const String changeyourPasswordSubtitle =
+  static const String changeYourPasswordSubtitle =
       "Your Account Security is our Priority! we've sent you secure Link to Safely change your Password and Keep Your Account Protected.";
   static const String confirmEmail = "verify your email address!";
   static const String confirmEmailSubtitle =

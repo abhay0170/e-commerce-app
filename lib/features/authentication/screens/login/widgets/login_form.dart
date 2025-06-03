@@ -1,11 +1,11 @@
-
+import 'package:e_commerce_app/features/authentication/screens/password_config/forget_password.dart';
 import 'package:e_commerce_app/features/authentication/screens/signup/signup.dart';
+import 'package:e_commerce_app/navigation_menu.dart';
 import 'package:e_commerce_app/utils/constants/sizes.dart';
 import 'package:e_commerce_app/utils/constants/text_string.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get_core/get_core.dart';
 import 'package:get/get_navigation/get_navigation.dart';
-import 'package:http/http.dart';
 import 'package:iconsax/iconsax.dart';
 
 class TLoginForm extends StatelessWidget {
@@ -17,10 +17,10 @@ class TLoginForm extends StatelessWidget {
   Widget build(BuildContext context) {
     return Form(
         child: Padding(
-      padding:
-          const EdgeInsets.symmetric(vertical: TSize.spaceBtwItems),
+      padding: const EdgeInsets.symmetric(vertical: TSize.spaceBtwItems),
       child: Column(
         children: [
+          //? text form 
           // email
           TextFormField(
             decoration: InputDecoration(
@@ -40,9 +40,9 @@ class TLoginForm extends StatelessWidget {
           SizedBox(
             height: TSize.spaceBtwInputfield / 2,
           ),
-    
+
           //? remember me & forget password
-    
+
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
@@ -55,18 +55,17 @@ class TLoginForm extends StatelessWidget {
               ),
               // forgot password
               TextButton(
-                  onPressed: () {},
+                  onPressed: () => Get.to(() => ForgetPasswordScreen()),
                   child: Text(TTexts.forgetPassword)),
             ],
           ),
           SizedBox(
             height: TSize.spaceBtwSections,
           ),
-          // sign in button
+          //? sign in button
           SizedBox(
             width: double.infinity,
-            child: ElevatedButton(
-                onPressed: () {}, child: Text(TTexts.signin)),
+            child: ElevatedButton(onPressed: () =>Get.offAll(()=>NavigationMenu()), child: Text(TTexts.signin)),
           ),
           SizedBox(
             height: TSize.spaceBtwSections / 2,
@@ -75,7 +74,8 @@ class TLoginForm extends StatelessWidget {
           SizedBox(
             width: double.infinity,
             child: OutlinedButton(
-                onPressed:() =>  Get.to(()=> SignupScreen()), child: Text(TTexts.createAccount)),
+                onPressed: () => Get.to(() => SignupScreen()),
+                child: Text(TTexts.createAccount)),
           )
         ],
       ),

@@ -17,21 +17,21 @@ class TermsAndConditions extends StatelessWidget {
         Text.rich(TextSpan(children: [
           TextSpan(
               text: TTexts.iAgreeTo,
-              style: Theme.of(context).textTheme.bodySmall),
+              style: Theme.of(context).textTheme.labelMedium),
           TextSpan(
-              text: TTexts.privacyPolicy,
+              text: " ${TTexts.privacyPolicy} ",
               style: Theme.of(context)
                   .textTheme
-                  .bodyMedium!
+                  .labelLarge!
                   .apply(color: dark ? TColors.white : TColors.primaryColor)),
           TextSpan(
               text: TTexts.iAgreeTo,
-              style: Theme.of(context).textTheme.bodySmall),
+              style: Theme.of(context).textTheme.labelMedium),
           TextSpan(
               text: TTexts.termsOfUse,
               style: Theme.of(context)
                   .textTheme
-                  .bodyMedium!
+                  .labelLarge!
                   .apply(color: dark ? TColors.white : TColors.primaryColor)),
         ]))
       ],

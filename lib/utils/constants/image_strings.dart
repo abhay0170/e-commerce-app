@@ -11,4 +11,8 @@ class TImages {
   static const String onBoardingImage1="assets/images/on_boarding_images/Animation - 1748428919836.json";
   static const String onBoardingImage2="assets/images/on_boarding_images/Animation - 1748428866660.json";
   static const String onBoardingImage3="assets/images/on_boarding_images/Animation - 1748428850597.json";
+  
+  static const String verifyYourEmail="assets/images/login_signup_images/Animation - verification.json";
+  static const String verificationSuccess="assets/images/login_signup_images/Animation - success.json";
+  static const String emailSended="assets/images/login_signup_images/Animation - mail - sended.json";
 }
