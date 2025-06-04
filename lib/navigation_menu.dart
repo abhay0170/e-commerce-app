@@ -1,7 +1,7 @@
-import 'package:e_commerce_app/features/authentication/screens/home/home.dart';
-import 'package:e_commerce_app/features/authentication/screens/profile/profile.dart';
-import 'package:e_commerce_app/features/authentication/screens/store/store.dart';
-import 'package:e_commerce_app/features/authentication/screens/wishlist/wishlist.dart';
+import 'package:e_commerce_app/features/store/screen/home/home.dart';
+import 'package:e_commerce_app/features/store/screen/profile/profile.dart';
+import 'package:e_commerce_app/features/store/screen/store/store.dart';
+import 'package:e_commerce_app/features/store/screen/wishlist/wishlist.dart';
 import 'package:e_commerce_app/utils/constants/colors.dart';
 import 'package:e_commerce_app/utils/helpers/helper_function.dart';
 import 'package:flutter/material.dart';

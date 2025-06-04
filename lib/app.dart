@@ -1,5 +1,4 @@
-import 'package:e_commerce_app/features/authentication/screens/onboarding/onboarding.dart';
-import 'package:e_commerce_app/features/authentication/screens/password_config/forget_password.dart';
+import 'package:e_commerce_app/features/store/screen/home/home.dart';
 import 'package:e_commerce_app/utils/theme/theme.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
@@ -14,8 +13,8 @@ class App extends StatelessWidget {
       themeMode: ThemeMode.system,
       theme: TAppTheme.lightTheme,
       darkTheme: TAppTheme.darkTheme,
-      home: const OnboardingScreen()
-      // home: const ForgetPasswordScreen(),
+      // home: const OnboardingScreen()
+      home: const HomeScreen(),
     );
   }
 }

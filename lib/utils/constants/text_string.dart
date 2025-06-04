@@ -1,5 +1,8 @@
 class TTexts {
   //? Global Text
+  static const String and = "And";
+  static const String skip = "Skip";
+  static const String done = "Done";
   static const String submit = "Submit";
   static const String appName = "T-Store";
   static const String tContinue = "Continue";
@@ -37,7 +40,6 @@ class TTexts {
   static const String verificationCode = "verificationCode";
   static const String resendEmail = "Resend Email";
   static const String resendEmailIn = "Resend email in";
-  static const String done = "Done";
 
   //? Authentication headings text
   static const String loginTitle = "Welcome back,";
@@ -59,4 +61,9 @@ class TTexts {
       "Your account successfully created!";
   static const String yourAccountCreatedSubTitle =
       "welcome to your ultimate Shopping Destination: Your account is Created, Unleash the Joy of Seamless Online Shopping";
+
+  // home
+  static const String homeAppBarTitle = "Good Day for shopping";
+  static const String homeAppBarSubTitle = "Abhay";
+
 }

@@ -1,10 +1,10 @@
 class TSize {
   // Padding And Margin Sizes
-  static const double xs = 4.0;
-  static const double sm = 8.0;
-  static const double md = 16.0;
-  static const double lg = 24.0;
-  static const double xl = 32.0;
+  static const double xs = 6.0;
+  static const double sm = 10.0;
+  static const double md = 18.0;
+  static const double lg = 26.0;
+  static const double xl = 36.0;
 
   // Icon Size
   static const double iconXs = 12.0;
