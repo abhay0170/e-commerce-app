@@ -14,4 +14,6 @@ void main() {
 
 // skipped image logo mentioned in the image
 // skipped http_helpers
-// ended at validation
+// add images of banner and cat. icons
+
+//! ended at 

@@ -15,4 +15,16 @@ class TImages {
   static const String verifyYourEmail="assets/images/login_signup_images/Animation - verification.json";
   static const String verificationSuccess="assets/images/login_signup_images/Animation - success.json";
   static const String emailSended="assets/images/login_signup_images/Animation - mail - sended.json";
+
+  // category icons
+  static const String sports="assets/images/offer_images/4300358_142.jpg";
+  // static const String sports="";
+  // static const String sports="";
+  // static const String sports="";
+  // static const String sports="";
+  // static const String sports="";
+  // static const String sports="";
+  // static const String sports="";
+  // static const String sports=""; 
+
 }

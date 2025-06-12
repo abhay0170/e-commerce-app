@@ -4,7 +4,6 @@ class TColors {
   TColors._();
 
   // basic color
-
   static const Color primaryColor = Color(0xFF394EEC);
   static const Color secondary = Color(0xFFF7F136);
   static const Color accent = Color(0xFFB0c7ff);
@@ -22,6 +21,10 @@ class TColors {
   // background container color
   static const Color lightContainer = Color(0xFFF6F6F6);
   static Color darkContainer = TColors.white.withValues(alpha: 0.1);
+
+  // border color
+  static const Color borderPrimary = Color(0xFFD9D9D9);
+  static const Color borderSecondary = Color(0xFFE6E6E6);
 
   // button color
   static const Color buttonPrimary = Color(0xFF4b68ff);
@@ -42,4 +45,5 @@ class TColors {
   static const Color darkGrey = Color(0xFF939393);
   static const Color darkerGrey = Color(0xFF4F4F4F);
   static const Color black = Color(0xFF232323);
+
 }

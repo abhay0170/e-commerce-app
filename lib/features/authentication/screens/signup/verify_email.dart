@@ -17,6 +17,7 @@ class VerifyEmailScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        automaticallyImplyLeading: false,
         actions: [
           IconButton(
               onPressed: () => Get.offAll(() => LoginScreen()),
@@ -30,7 +31,7 @@ class VerifyEmailScreen extends StatelessWidget {
             //? image
             Lottie.asset(
                 width: THelperFunction.screenWidth() * 0.8,
-                TImages.verificationSuccess),
+                TImages.emailSended),
             //? title
             Text(
               TTexts.confirmEmail,
